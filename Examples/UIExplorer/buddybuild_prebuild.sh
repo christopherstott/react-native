@@ -6,5 +6,5 @@ pwd
 #open "./IntegrationTests/launchWebSocketServer.command" || echo "Can't start web socket server automatically"
 
 cd IntegrationTests
-nohup ./websocket_integration_test_server.js &
+screen -d -m ‘././websocket_integration_test_server.js’
 
